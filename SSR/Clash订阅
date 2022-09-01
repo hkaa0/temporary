@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：TG频道:@hkaa0
-#  创建时间：2022-08-31
+#  创建时间：2022-09-01 
 #  模版：ACL4SSR
-#  节点数量：18
+#  节点数量：20
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -12,165 +12,182 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_1","server":"213.183.59.211","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_1","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_2","server":"213.183.59.214","port":9020,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BNmAXXxAHYpTRdzu"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_2","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_3","server":"213.183.59.211","port":9019,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"GA9KzeEgvfxNrgmM"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_4","server":"213.183.59.214","port":9098,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"aLpQtfEZe445QyHk"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_5","server":"213.183.59.211","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_6","server":"213.183.59.214","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_7","server":"213.183.59.211","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_8","server":"213.183.59.211","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_9","server":"213.183.59.214","port":9031,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BwcAUZk8hUFAkDGN"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_10","server":"213.183.59.211","port":9030,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"GeregetR8cvQHzYr"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_11","server":"213.183.59.211","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_12","server":"213.183.59.211","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_13","server":"213.183.59.214","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_14","server":"213.183.59.211","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_15","server":"213.183.59.211","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_16","server":"213.183.59.218","port":9037,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TN2YqghxeFDKZfLU"}
+  - {"type":"ssr","name":"TG@hkaa0🇺🇸1","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
+  - {"type":"ssr","name":"TG@hkaa0🇺🇸2","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱3","server":"213.183.59.211","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱4","server":"213.183.59.214","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱5","server":"213.183.59.211","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱6","server":"213.183.59.211","port":9030,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"GeregetR8cvQHzYr"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱7","server":"213.183.59.211","port":9032,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UWZQeLRWnkqgkseq"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱8","server":"213.183.59.211","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱9","server":"213.183.59.211","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱10","server":"213.183.59.211","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱11","server":"213.183.59.218","port":9037,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TN2YqghxeFDKZfLU"}
+  - {"type":"ssr","name":"TG@hkaa0🇷🇺12","server":"188.119.64.232","port":23350,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    7r"}
+  - {"type":"ssr","name":"TG@hkaa0🇷🇺13","server":"188.119.64.230","port":23350,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    7r"}
+  - {"type":"ssr","name":"TG@hkaa0🇷🇺14","server":"46.17.47.133","port":23350,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    9m"}
+  - {"type":"ssr","name":"TG@hkaa0🇨🇳15","server":"183.232.141.117","port":559,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"2860:KKKKKKKKKK45334"}
+  - {"type":"ssr","name":"TG@hkaa0🇨🇳16","server":"183.232.141.93","port":563,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"2860:KKKKKKKKKK45334"}
+  - {"type":"ssr","name":"TG@hkaa0🇨🇳17","server":"116.162.120.26","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"2860:KKKKKKKKKK45334"}
+  - {"type":"ssr","name":"TG@hkaa0🇨🇳18","server":"116.162.120.24","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"2860:KKKKKKKKKK45334"}
+  - {"type":"ssr","name":"TG@hkaa0🇨🇳19","server":"116.162.120.24","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"2860:KKKKKKKKKK45334"}
+  - {"type":"ssr","name":"TG@hkaa0🇳🇱20","server":"213.183.59.211","port":9025,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"XPtzA9sCug3SPR4c"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|荷兰_2
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|荷兰_5
-      - TG频道:@hkaa0|荷兰_6
-      - TG频道:@hkaa0|荷兰_7
-      - TG频道:@hkaa0|荷兰_8
-      - TG频道:@hkaa0|荷兰_9
-      - TG频道:@hkaa0|荷兰_10
-      - TG频道:@hkaa0|荷兰_11
-      - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|荷兰_13
-      - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|荷兰_15
-      - TG频道:@hkaa0|荷兰_16
+      - TG@hkaa0🇺🇸1
+      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇳🇱3
+      - TG@hkaa0🇳🇱4
+      - TG@hkaa0🇳🇱5
+      - TG@hkaa0🇳🇱6
+      - TG@hkaa0🇳🇱7
+      - TG@hkaa0🇳🇱8
+      - TG@hkaa0🇳🇱9
+      - TG@hkaa0🇳🇱10
+      - TG@hkaa0🇳🇱11
+      - TG@hkaa0🇷🇺12
+      - TG@hkaa0🇷🇺13
+      - TG@hkaa0🇷🇺14
+      - TG@hkaa0🇨🇳15
+      - TG@hkaa0🇨🇳16
+      - TG@hkaa0🇨🇳17
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19
+      - TG@hkaa0🇳🇱20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|荷兰_2
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|荷兰_5
-      - TG频道:@hkaa0|荷兰_6
-      - TG频道:@hkaa0|荷兰_7
-      - TG频道:@hkaa0|荷兰_8
-      - TG频道:@hkaa0|荷兰_9
-      - TG频道:@hkaa0|荷兰_10
-      - TG频道:@hkaa0|荷兰_11
-      - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|荷兰_13
-      - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|荷兰_15
-      - TG频道:@hkaa0|荷兰_16
+      - TG@hkaa0🇺🇸1
+      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇳🇱3
+      - TG@hkaa0🇳🇱4
+      - TG@hkaa0🇳🇱5
+      - TG@hkaa0🇳🇱6
+      - TG@hkaa0🇳🇱7
+      - TG@hkaa0🇳🇱8
+      - TG@hkaa0🇳🇱9
+      - TG@hkaa0🇳🇱10
+      - TG@hkaa0🇳🇱11
+      - TG@hkaa0🇷🇺12
+      - TG@hkaa0🇷🇺13
+      - TG@hkaa0🇷🇺14
+      - TG@hkaa0🇨🇳15
+      - TG@hkaa0🇨🇳16
+      - TG@hkaa0🇨🇳17
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19
+      - TG@hkaa0🇳🇱20
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|荷兰_2
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|荷兰_5
-      - TG频道:@hkaa0|荷兰_6
-      - TG频道:@hkaa0|荷兰_7
-      - TG频道:@hkaa0|荷兰_8
-      - TG频道:@hkaa0|荷兰_9
-      - TG频道:@hkaa0|荷兰_10
-      - TG频道:@hkaa0|荷兰_11
-      - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|荷兰_13
-      - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|荷兰_15
-      - TG频道:@hkaa0|荷兰_16
+      - TG@hkaa0🇺🇸1
+      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇳🇱3
+      - TG@hkaa0🇳🇱4
+      - TG@hkaa0🇳🇱5
+      - TG@hkaa0🇳🇱6
+      - TG@hkaa0🇳🇱7
+      - TG@hkaa0🇳🇱8
+      - TG@hkaa0🇳🇱9
+      - TG@hkaa0🇳🇱10
+      - TG@hkaa0🇳🇱11
+      - TG@hkaa0🇷🇺12
+      - TG@hkaa0🇷🇺13
+      - TG@hkaa0🇷🇺14
+      - TG@hkaa0🇨🇳15
+      - TG@hkaa0🇨🇳16
+      - TG@hkaa0🇨🇳17
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19
+      - TG@hkaa0🇳🇱20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|荷兰_2
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|荷兰_5
-      - TG频道:@hkaa0|荷兰_6
-      - TG频道:@hkaa0|荷兰_7
-      - TG频道:@hkaa0|荷兰_8
-      - TG频道:@hkaa0|荷兰_9
-      - TG频道:@hkaa0|荷兰_10
-      - TG频道:@hkaa0|荷兰_11
-      - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|荷兰_13
-      - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|荷兰_15
-      - TG频道:@hkaa0|荷兰_16
+      - TG@hkaa0🇺🇸1
+      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇳🇱3
+      - TG@hkaa0🇳🇱4
+      - TG@hkaa0🇳🇱5
+      - TG@hkaa0🇳🇱6
+      - TG@hkaa0🇳🇱7
+      - TG@hkaa0🇳🇱8
+      - TG@hkaa0🇳🇱9
+      - TG@hkaa0🇳🇱10
+      - TG@hkaa0🇳🇱11
+      - TG@hkaa0🇷🇺12
+      - TG@hkaa0🇷🇺13
+      - TG@hkaa0🇷🇺14
+      - TG@hkaa0🇨🇳15
+      - TG@hkaa0🇨🇳16
+      - TG@hkaa0🇨🇳17
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19
+      - TG@hkaa0🇳🇱20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|荷兰_2
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|荷兰_5
-      - TG频道:@hkaa0|荷兰_6
-      - TG频道:@hkaa0|荷兰_7
-      - TG频道:@hkaa0|荷兰_8
-      - TG频道:@hkaa0|荷兰_9
-      - TG频道:@hkaa0|荷兰_10
-      - TG频道:@hkaa0|荷兰_11
-      - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|荷兰_13
-      - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|荷兰_15
-      - TG频道:@hkaa0|荷兰_16
+      - TG@hkaa0🇺🇸1
+      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇳🇱3
+      - TG@hkaa0🇳🇱4
+      - TG@hkaa0🇳🇱5
+      - TG@hkaa0🇳🇱6
+      - TG@hkaa0🇳🇱7
+      - TG@hkaa0🇳🇱8
+      - TG@hkaa0🇳🇱9
+      - TG@hkaa0🇳🇱10
+      - TG@hkaa0🇳🇱11
+      - TG@hkaa0🇷🇺12
+      - TG@hkaa0🇷🇺13
+      - TG@hkaa0🇷🇺14
+      - TG@hkaa0🇨🇳15
+      - TG@hkaa0🇨🇳16
+      - TG@hkaa0🇨🇳17
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19
+      - TG@hkaa0🇳🇱20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|荷兰_2
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|荷兰_5
-      - TG频道:@hkaa0|荷兰_6
-      - TG频道:@hkaa0|荷兰_7
-      - TG频道:@hkaa0|荷兰_8
-      - TG频道:@hkaa0|荷兰_9
-      - TG频道:@hkaa0|荷兰_10
-      - TG频道:@hkaa0|荷兰_11
-      - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|荷兰_13
-      - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|荷兰_15
-      - TG频道:@hkaa0|荷兰_16
+      - TG@hkaa0🇺🇸1
+      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇳🇱3
+      - TG@hkaa0🇳🇱4
+      - TG@hkaa0🇳🇱5
+      - TG@hkaa0🇳🇱6
+      - TG@hkaa0🇳🇱7
+      - TG@hkaa0🇳🇱8
+      - TG@hkaa0🇳🇱9
+      - TG@hkaa0🇳🇱10
+      - TG@hkaa0🇳🇱11
+      - TG@hkaa0🇷🇺12
+      - TG@hkaa0🇷🇺13
+      - TG@hkaa0🇷🇺14
+      - TG@hkaa0🇨🇳15
+      - TG@hkaa0🇨🇳16
+      - TG@hkaa0🇨🇳17
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19
+      - TG@hkaa0🇳🇱20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,24 +210,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|荷兰_2
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|荷兰_5
-      - TG频道:@hkaa0|荷兰_6
-      - TG频道:@hkaa0|荷兰_7
-      - TG频道:@hkaa0|荷兰_8
-      - TG频道:@hkaa0|荷兰_9
-      - TG频道:@hkaa0|荷兰_10
-      - TG频道:@hkaa0|荷兰_11
-      - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|荷兰_13
-      - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|荷兰_15
-      - TG频道:@hkaa0|荷兰_16
+      - TG@hkaa0🇺🇸1
+      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇳🇱3
+      - TG@hkaa0🇳🇱4
+      - TG@hkaa0🇳🇱5
+      - TG@hkaa0🇳🇱6
+      - TG@hkaa0🇳🇱7
+      - TG@hkaa0🇳🇱8
+      - TG@hkaa0🇳🇱9
+      - TG@hkaa0🇳🇱10
+      - TG@hkaa0🇳🇱11
+      - TG@hkaa0🇷🇺12
+      - TG@hkaa0🇷🇺13
+      - TG@hkaa0🇷🇺14
+      - TG@hkaa0🇨🇳15
+      - TG@hkaa0🇨🇳16
+      - TG@hkaa0🇨🇳17
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19
+      - TG@hkaa0🇳🇱20
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3575,4 +3594,3 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-
